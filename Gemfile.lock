@@ -51,16 +51,16 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
-    rainbow (2.1.0)
+    rainbow (3.0.0)
     ref (2.0.0)
     rexec (1.6.3)
       rainbow
     rqrcode (0.10.1)
       chunky_png (~> 1.0)
-    rubydns (0.7.0)
+    rubydns (0.7.3)
       eventmachine (~> 1.0.0)
       rexec (~> 1.6.2)
-    rubyzip (1.2.0)
+    rubyzip (1.3.0)
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -100,7 +100,7 @@ DEPENDENCIES
   parseconfig
   qr4r
   rack
-  rubydns (= 0.7.0)
+  rubydns (~> 0.7.3)
   rubyzip (>= 1.0.0)
   sinatra
   term-ansicolor
